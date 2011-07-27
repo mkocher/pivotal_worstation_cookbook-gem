@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = PivotalWorkstationCookbook::VERSION
   s.authors     = ["Matthew Kocher"]
   s.email       = ["kocher@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/mkocher/pivotal_worstation_cookbook-gem"
   s.summary     = %q{The pivotal_workstation OSX Chef cookbook}
   s.description = %q{Packaged as a gem for use with soloist.}
 
