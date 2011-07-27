@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.description = %q{Packaged as a gem for use with soloist.}
 
   s.files         = `git ls-files`.split("\n")
+  s.files         += `cd cookbooks/pivotal_workstation/ && git ls-files`.split("\n").map {|file_name| "cookbooks/pivotal_workstation/"+file_name}
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
